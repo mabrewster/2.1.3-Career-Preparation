@@ -1,7 +1,5 @@
-# 2.1.3-Career-Preparation
+2.1.3-Career-Preparation
 Answer the 20 yes or no questions. The results will state which career pathway best aligns with your interests. Then go back to Edio to share your results!
-
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -19,7 +17,8 @@ Answer the 20 yes or no questions. The results will state which career pathway b
       border: 2px solid #003366;
       padding: 20px;
       margin: 20px auto;
-     : #f0f8ff;
+      width: 80%;
+      background-color: #f0f8ff;
     }
     .question-image {
       max-width: 100%;
@@ -38,12 +37,14 @@ Answer the 20 yes or no questions. The results will state which career pathway b
     #result {
       font-size: 24px;
       font-weight: bold;
-      margin-top: 20px;
+      20px;
     }
   </style>
 </head>
 <body>
- img id="question-image" class="question-image" src="" alt="Question Image" />
+  <h1>Career Interest Survey</h1>
+  <div id="survey-container" class="question-box">
+    <img id="question-image" class="question-image" src="" alt="Question Image" />
     <p id="question-text"></p>
     <button onclick="answer('yes')">Yes</button>
     <button onclick="answer('no')">No</button>
